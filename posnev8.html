@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Javscript</title>
+        <script>
+            function check(){
+                var value=document.getElementById('data').value;
+               // var res=Math.sign(value);
+               if(value>0){
+                res =value+'is positive number';
+               }else if(value<0){
+                res= value+"is Negative number";
+               }else if(value ==0){
+                res=value+"is Negative number";
+            }else{
+                res=value+"is not a number";            }
+                document.getElementById('res').innerText=res;
+            }
+
+        </script>
+        <style type="text/css"></style>
+    </head>
+    <body>
+        <input type="" name="" id="data"/>
+        </br>
+        <button onclick="check()">Check</button>
+        <h1 id="res"></h1>
+    </body>
+</html>

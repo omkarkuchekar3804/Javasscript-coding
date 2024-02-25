@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>javascript</title>
+        <script>
+            var a=prompt("Enter a the first number");
+            var b=prompt("Enter the ssecond number");
+            var c=prompt("Enter the third number");
+             var x=check(a,b,c);
+
+            console.log(x+"is the largest number");
+        
+            function check(a,b,c){
+                if(a>=b && a>+c){
+                    return a;
+                }else if(b>=a && b>=c){
+                    return b;
+                }else{
+                    return c;
+                }
+
+            }
+        </script>
+    </head>
+</html>
